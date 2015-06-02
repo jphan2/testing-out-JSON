@@ -1,0 +1,14 @@
+import org.json.simple.JSONObject
+class jsonExample
+{
+	public static void main(String[] args)
+	{
+		JSONObject obj = new JSONObject();
+		obj.put("name", "doobs");
+		obj.put("id", new Integer(169584);
+		obj.put("age", new Integer(17));
+		obj.put("single?", new Boolean(true));
+		
+		System.out.println(obj);
+	}
+}
